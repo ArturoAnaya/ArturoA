@@ -1,0 +1,62 @@
+#site{
+  /* Definimos el ancho de la página */
+  width:100%;
+  /* Definimos la altura de la página*/
+  height:700px;
+  /* Aqui definiremos la posición que la página ocupará en la pantalla*/
+  /*top : posicionamiento superior */
+  margin-top:0;
+  /* left: posicionamiento a la izquierda*/
+  margin-left:auto;
+  /* bottom : posicionamiento inferior */
+  margin-bottom:0;
+  /* right : posicionamiento a la derecha */
+  margin-right:auto;
+  /* Aqui definiremos el color del fondo de la página */
+  background-color:#666;
+}
+
+#header{
+  /*Nuevamente definimos el ancho de la div*/
+  width:100%;
+  /* altura de la div */
+  height:230px;
+  /* Color de fondo de la div */
+  background-color:rebeccapurple;;
+  }
+    
+#cuerpo{
+  width:100%;
+  height:600px;
+  background-color:orange;
+}
+    
+#footer{
+  width:100%;
+  height:150px;
+  background-color:skyblue;
+}
+
+#cuerpo-left{
+  width:80%;
+  height:550px;
+  /* O atributo Float es utilizado para que nuestro bloque (div)
+  literalmente "flote" y se posicione donde queremos en la página,
+  cuando escogemos left, decimos que ese bloque se posicionará en la
+  parte izquierda de la página */
+  float:left;
+  background-color:ghostwhite;
+}
+#cuerpo-right{
+  width:20%;
+  height:400px;
+   
+  /* Puede parecer extraño usar el mismo atributo left para el bloque
+  en que queremos posicionar a la derecha, pero como sabemos, CSS es un estilo
+  em cascada, nuestro div cuerpo fue definida con ancho de 1000px y el
+  cuerpo-left con 500px; entonces, automaticamente al definir el cuerpo-right
+  con 500px à esquerda também, visualmente se verá a la derecha de cuerpo-left,
+  pues el máximo que la div "hija" podrá tener es 1000px, siendo 500+500=1000px */
+  float:left;
+  background-color:#F00;
+  }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Tabla </title>
+    <style>
+        table{width: 100%}<!--Ancho de la tabla-->
+    </style>
+    </head>
+<body style="background-color: beige">
+<table border="2px" align="center" style="border-color:blue">
+<caption>
+    <h3 align="center" style="color: red" style="margin-top: auto">Mi horario personal</h3>
+  </caption>
+<thead style="background-color: yellow"><!--Cabecera tabla-->
+         <tr>
+            <th style="width:22%">Hora</th>
+            <th style="width:13%">Lunes</th>
+             <th style="width:13%">Martes</th>
+             <th style="width:13%">Miercoles</th>
+             <th style="width:13%">Jueves</th>
+             <th style="width:13%">Viernes</th>
+             <th style="width:13%">Sabado</th>
+        </tr>
+  </thead>
+<tbody>
+    <tr><!--Primera Fila-->
+        <td style="background-color:sandybrown; text-align:center;font-family: monospace; font-size: 120%">7:00 AM - 9:00 AM</td>
+         <td style="background-color: greenyellow; text-align: center" colspan="2">Curso 1</td>
+        <td rowspan="3" style="background-color: aqua; text-align: center">Curso 3</td>
+        <td style="background-color: burlywood">Curso 4</td>
+        <td style="background-color:deeppink; text-align: center" colspan="2">Curso 5</td>
+        </tr>
+    <tr><!--Segunda Fila-->
+        <td style="background-color:sandybrown; text-align:center;font-family: monospace; font-size: 120%">9:00 AM - 11:00 AM</td>
+        <td>Libre</td>
+        <td style="background-color: burlywood">Curso 4</td>
+        <td>Libre</td>
+        <td style="background-color: gainsboro">Curso 2</td>
+        <td style="background-color: greenyellow">Curso 1</td>
+        </tr>
+    <tr><!--Tercera Fila-->
+        <td style="background-color:sandybrown; text-align:center;font-family: monospace; font-size: 120%">11:00 AM - 1:00 PM</td>
+        <td style="background-color: deeppink">Curso 5</td>
+        <td>Libre</td>
+        <td style="background-color: gainsboro">Curso 2</td>
+        <td>Libre</td>
+        <td style="background-color: aqua">Curso 3</td>
+        </tr>
+    <tr><!--Cuarta Fila-->
+        <td style="background-color:sandybrown; text-align:center;font-family: monospace; font-size: 120%">1:00 PM - 3:00 PM</td>
+        <td style="background-color:lightpink; text-align: center" colspan="6">Descanso</td>
+        </tr>
+    <tr><!--Quinta Fila-->
+        <td style="background-color:sandybrown; text-align:center;font-family: monospace; font-size: 120%">3:00 PM - 5:00 PM</td>
+         <td style="background-color: deeppink; text-align: center" colspan="2">Curso 5</td>
+        <td style="background-color: gainsboro">Curso 2</td>
+        <td rowspan="2" style="background-color: burlywood; text-align: center">Curso 4</td>
+        <td rowspan="2" style="background-color: aqua; text-align: center">Curso 3</td>
+        <td rowspan="2" style="background-color: burlywood; text-align: center">Curso 4</td>
+        </tr>
+    <tr><!--Sexta Fila-->
+        <td style="background-color: sandybrown; text-align:center;font-family: monospace; font-size: 120%">5:00 PM - 7:00 PM</td>
+        <td style="background-color: aqua">Curso 3</td>
+        <td>Libre</td>
+        <td style="background-color: greenyellow">Curso 1</td>
+        </tr>
+  </tbody>
+<tfoot style="text-align: center">
+    <tr>
+       <td style="background-color:sandybrown; text-align:center;font-family: monospace; font-size: 120%">7:00 PM</td>
+       <td style="background-color:lightpink; text-align: center" colspan="6">Fin de Jornada</td>
+    </tr>
+   </tfoot>
+  
+    
+    </table>    
+</body>
+</html>
